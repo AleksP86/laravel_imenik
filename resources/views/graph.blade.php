@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<script src="{{asset('js/jscolor.js')}}"></script>
-		<button class="btn btn-info btn-sm" onclick="document.getElementById('foo').jscolor.show()">Show Picker</button><br>
+		<button class="btn btn-info btn-sm" onclick="document.getElementById('foo').jscolor.show()">Selekcija boja</button><br>
 		<input id="foo" class="jscolor btn" style="display:none;" value="">
 		
 		<div class="col-md-10 navh">

@@ -8,7 +8,7 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<body>
 		<script src="{{asset('js/jscolor.js')}}"></script>
-		<button class="btn btn-info btn-sm" onclick="document.getElementById('foo').jscolor.show()">Show Picker</button><br>
+		<button class="btn btn-info btn-sm" onclick="document.getElementById('foo').jscolor.show()">Selekcija boja</button><br>
 		<input id="foo" class="jscolor btn" style="display:none;" value="">
 
 		<div align='center'>
