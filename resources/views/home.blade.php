@@ -53,7 +53,7 @@
 						<button type="button" class="btn btn-primary btn-sm" onclick="CheckInformation();">Snimi</button>
 						<span style='padding-left:20px;'>Sva polja su obavezna</span>
 				</form>
-				<div id="message_holder"></div>
+				<div id="message_holder" class="message_holder"></div>
 				<hr>
 			</div>
 			<br/>

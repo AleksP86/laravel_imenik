@@ -56,7 +56,7 @@
 	        	</form>
 	        </div>
 			<div id="insert-holder" class="col-md-10">
-				<div id="message_holder"></div>
+				<div id="message_holder" class="message_holder"></div>
 				<hr>
 			</div>
 			<br/>

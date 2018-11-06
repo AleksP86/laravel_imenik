@@ -15,12 +15,12 @@ class Login2 extends Controller
     	//$request->session()->flash('login_mess', $name);
     	if($request->user_name=='')
     	{
-    		$request->session()->flash('login_mess', 'Missing username');
+    		$request->session()->flash('login_mess', 'Nedostaje korisnicko ime');
     		return redirect('/');
     	}
     	if($request->user_pass=='')
     	{
-    		$request->session()->flash('login_mess', 'Missing password');
+    		$request->session()->flash('login_mess', 'Nedostaje lozinka');
     		return redirect('/');
     	}
     	if($request->user_name!='' && $request->user_pass!='')
@@ -33,7 +33,7 @@ class Login2 extends Controller
     		}
     		else
     		{
-    			$request->session()->flash('login_mess', 'Invalid login information');
+    			$request->session()->flash('login_mess', 'Ne vazeci korisniki podaci');
     			return redirect('/');
     		}
     	}
