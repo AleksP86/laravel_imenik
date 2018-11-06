@@ -8,4 +8,5 @@ List of pages:
 - graph (js plugin) offering info on sities and number of entries for each.
 Every page has in left corner color picker that changes current page background (resets on page leave).
 API request that for city name returns all entries for it, /api/imenik/city_name
+
 imenik.sql is DB dump for this application with 20 entries.
