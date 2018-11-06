@@ -1,7 +1,7 @@
 Small phonebook done in Laravel (Serbian text in views).
 
 List of pages:
-- login (regular login), has login only for 1 user for now (username: korisnik pass:1234). No registration or mailig for now.
+- login (regular login), has login only for 1 user for now (username: korisnik pass:1234). No registration or mailing for now.
 - home page where you can add new phone numbers and where all are listed.
 - search phone number by any of values: town, street, lastname, firstname, phone numer.
     All fileds have search offering auto-sugestions from DB based on what is typed.
